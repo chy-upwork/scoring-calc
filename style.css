@@ -1,0 +1,121 @@
+/*General*/
+
+body {
+	
+	margin:0;
+	padding:0;
+	font-family: Helvetica,Arial sans-serif;
+	background-image: url(backGround.jpg);
+	background-position: center center;
+	background-repeat:repeat;
+	
+	
+}
+
+h1,h2,h3 {
+	
+	color: white;
+	text-shadow: -2px 5px 2px 2px rgba(0,0,0,0.7);
+	
+}
+
+.color{
+	
+	color:red;
+}
+
+/*Main Container*/
+
+ #container{
+	
+	background-image: url(mainContainer.png);
+	background-position: center center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	 
+	 width: 400px;
+	 margin : 40px auto;
+	 
+	 padding: 30px 90px;
+	 border: 1px solid black;
+	 border-radius:10px;
+	 
+	 box-shadow: -2px 5px 2px 2px rgba(0,0,0,0.7);
+
+}
+
+/*Buttons*/
+
+#b1, #b2, #b3{
+	
+	display:block;
+	background: red;
+	width:100px;
+	margin: 20px 0 ;
+	padding:10px 10px;
+	
+	
+	border: 1px solid black;
+	border-radius:3px;
+	box-shadow: -2px 5px 2px 2px rgba(0,0,0,0.7);
+	
+	color:white;
+	
+	font-style: italic;
+	font-weight: bolder;
+	
+	
+	
+	
+}
+
+#b1:hover{
+	
+	background:#4c2827;
+	border-bottom-color: #111;
+}
+
+#b1:active{
+	
+	position:relative;
+	top:1px;
+}
+
+#b2:hover{
+	
+	background:#4c2827;
+	border-bottom-color: #111;
+}
+
+#b2:active{
+	
+	position:relative;
+	top:1px;
+}
+
+#b3:hover{
+	
+	background:#4c2827;
+	border-bottom-color: #111;
+}
+
+#b3:active{
+	
+	position:relative;
+	top:1px;
+}
+
+/*input*/
+
+input {
+	width: 200px;
+	padding: 10px 10px;
+	
+}
+
+/*JS Class*/
+
+.winner{
+	
+	color:	#006400;
+}
